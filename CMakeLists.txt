@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 project(
-    labwork2
+        labwork2
     VERSION 1.0
     DESCRIPTION "C++ Year 2023 Labwork2"
     LANGUAGES CXX

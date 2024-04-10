@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Игнорировать файлы и папки, созданные CMake
+_deps/
+cmake-build-default/
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+.idea/
