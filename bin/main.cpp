@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-    int2023_t value;
+    int2023_t value = from_int(2147483649);
     std::cout << value << std::endl;
 
     return 0;
