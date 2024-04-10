@@ -21,8 +21,18 @@ int2023_t operator*(const int2023_t& lhs, const int2023_t& rhs);
 
 int2023_t operator/(const int2023_t& lhs, const int2023_t& rhs);
 
+bool operator>(const int2023_t&, const int2023_t&);
+
+bool operator<(const int2023_t&, const int2023_t&);
+
+bool operator>=(const int2023_t&, const int2023_t&);
+
+bool operator<=(const int2023_t&, const int2023_t&);
+
 bool operator==(const int2023_t& lhs, const int2023_t& rhs);
 
 bool operator!=(const int2023_t& lhs, const int2023_t& rhs);
 
 std::ostream& operator<<(std::ostream& ostream, const int2023_t& value);
+
+int2023_t operator<<(const int2023_t& lhs, const int& rhs);
